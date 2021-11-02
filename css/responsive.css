@@ -1,0 +1,139 @@
+/* Hero */
+
+@media screen and (max-width: 1199px) {
+  .hero .row {
+    padding-bottom: 50px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero .row {
+    padding-bottom: 150px;
+  }
+
+  .about .social-icons {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero .row {
+    padding-bottom: 100px;
+  }
+
+  .hero img {
+    width: 60%;
+  }
+
+  .hero h1 {
+    font-size: 2.7rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .hero .btn-custom1 {
+    width: 90%;
+  }
+
+  .about .social-icons {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 550px) {
+  .social-icons {
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .hero .row {
+    padding-bottom: 170px;
+  }
+  .hero h1 {
+    font-size: 2.3rem;
+  }
+  .hero p {
+    font-size: 0.8rem;
+  }
+  .social-icons .cv {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .hero {
+    max-height: 600px;
+    max-width: 610px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 0.7rem;
+  }
+
+  .skill img {
+    width: 33%;
+  }
+  .social-icons svg {
+    width: 20px;
+    margin-right: 0.3em;
+    margin-bottom: 15px;
+  }
+  .social-icons {
+    width: 90%;
+  }
+  .social-icons .cv {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.6rem;
+  }
+
+  .skill img {
+    width: 33%;
+  }
+  .social-icons svg {
+    width: 20px;
+    margin-right: 0.2em;
+    margin-bottom: 10px;
+  }
+  .social-icons {
+    width: 90%;
+  }
+}
+
+/* End Hero */
+
+/* Skill */
+
+@media (min-width: 600px) {
+  .skill {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 600px) {
+  .content-skill .card {
+    height: 400px !important;
+  }
+}
+
+/* End Skill */

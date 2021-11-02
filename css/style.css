@@ -1,0 +1,469 @@
+:root {
+  --mainColor: #252734;
+  --secondaryColor: #333646;
+  --acsentColor: #ff9100;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: "ubuntu", sans-serif;
+}
+
+section h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+hr {
+  width: 35%;
+  height: 3px;
+  color: var(--acsentColor);
+  margin: 10px auto;
+}
+
+/* Navbar */
+
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+
+.nav-dark {
+  background-color: var(--secondaryColor) !important;
+  z-index: 10;
+  transition: 0.7s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* End Navbar */
+
+/* Hero */
+
+.color-acsent {
+  color: var(--acsentColor);
+}
+
+.hero {
+  color: #fff;
+  min-height: 100vh;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-weight: 300;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.hero img {
+  padding-top: 100px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.btn-custom-1 {
+  background-color: var(--acsentColor);
+  text-align: center;
+  color: #fff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.btn-custom-1:hover {
+  box-shadow: 0 0 5px rgba(255, 166, 0, 0.8);
+}
+
+.cv {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.social-iconss svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+/* End Hero */
+
+/* About */
+.about {
+  background-color: var(--secondaryColor);
+  min-height: 300px;
+  padding: 80px 0;
+  margin-bottom: 80px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* End About */
+
+/* Skill */
+.skill {
+  min-height: 600px;
+  color: #fff;
+}
+
+.skill .app-logo {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.skill .app-logo img {
+  width: 80px;
+  margin: 10px;
+  transform: scale(1) rotate(0);
+  transition: 0.5s ease;
+}
+
+.skill .app-logo img:hover {
+  transform: scale(1.2) rotate(360deg);
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+}
+
+.skill .skill-level {
+  width: 100%;
+  height: 6px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+}
+
+.skill .skill-level:hover {
+  box-shadow: 0 0 3px var(--acsentColor);
+  transform: scale(1.015);
+}
+
+.skill-level,
+.skill-level-1,
+.skill-level-2,
+.skill-level-3,
+.skill-level-4,
+.skill-level-5,
+.skill-level-6,
+.skill-level-7,
+.skill-level-8,
+.skill-level-9,
+.skill-level-10 {
+  border-radius: 3px;
+}
+
+.skill .skill-level-1 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a1 5s ease-out forwards;
+}
+
+.counter-1 {
+  font-size: 15px;
+}
+
+.counter-1::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a1 {
+  to {
+    width: 95%;
+  }
+}
+
+.skill .skill-level-2 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a2 5s ease-out forwards;
+}
+
+.counter-2 {
+  font-size: 15px;
+}
+
+.counter-2::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a2 {
+  to {
+    width: 85%;
+  }
+}
+
+.skill .skill-level-3 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a3 5s ease-out forwards;
+}
+
+.counter-3 {
+  font-size: 15px;
+}
+
+.counter-3::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a3 {
+  to {
+    width: 77%;
+  }
+}
+
+.skill .skill-level-4 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a4 5s ease-out forwards;
+}
+
+.counter-4 {
+  font-size: 15px;
+}
+
+.counter-4::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a4 {
+  to {
+    width: 97%;
+  }
+}
+
+.skill .skill-level-5 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a5 5s ease-out forwards;
+}
+
+.counter-5 {
+  font-size: 15px;
+}
+
+.counter-5::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a5 {
+  to {
+    width: 92%;
+  }
+}
+
+.skill .skill-level-6 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a6 5s ease-out forwards;
+}
+
+.counter-6 {
+  font-size: 15px;
+}
+
+.counter-6::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a6 {
+  to {
+    width: 84%;
+  }
+}
+
+.skill .skill-level-7 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a7 5s ease-out forwards;
+}
+
+.counter-7 {
+  font-size: 15px;
+}
+
+.counter-7::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a7 {
+  to {
+    width: 75%;
+  }
+}
+
+.skill .skill-level-8 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a8 5s ease-out forwards;
+}
+
+.counter-8 {
+  font-size: 15px;
+}
+
+.counter-8::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a8 {
+  to {
+    width: 98%;
+  }
+}
+
+.skill .skill-level-9 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a9 5s ease-out forwards;
+}
+
+.counter-9 {
+  font-size: 15px;
+}
+
+.counter-9::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a9 {
+  to {
+    width: 70%;
+  }
+}
+
+.skill .skill-level-10 {
+  width: 0px;
+  height: 6px;
+  position: absolute;
+  background-color: var(--acsentColor);
+  animation: a10 5s ease-out forwards;
+}
+
+.counter-10 {
+  font-size: 15px;
+}
+
+.counter-10::after {
+  content: "%";
+  font-size: 10px;
+}
+
+@keyframes a10 {
+  to {
+    width: 93%;
+  }
+}
+
+.content-skill .card {
+  height: 320px;
+  background-color: var(--secondaryColor);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  transform: scale(1);
+}
+
+.content-skill .card:hover {
+  transform: scale(1.05);
+  background-color: var(--acsentColor);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* End Skill */
+
+/* Sertifikat */
+.sertifikat {
+  margin-top: -300px;
+  padding-top: 320px;
+  padding-bottom: 80px;
+  background-color: var(--secondaryColor);
+}
+
+.sertifikat p,
+a {
+  color: #fff !important;
+}
+
+.sertifikat .card {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.sertifikat .overlay-card {
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: var(--secondaryColor);
+  transform: translate(0, 100%);
+  transition: all 0.4s ease-in-out;
+  opacity: 1;
+}
+
+.sertifikat .card:hover .overlay-card {
+  opacity: 0.9;
+  transform: translate(0, 0);
+  transition: all 0.6s ease-out;
+}
+
+.sertifikat .overlay-card .btn-custom1 {
+  /* width: 20px !important; */
+  width: 90px !important;
+  height: 35px;
+  margin-top: -9px;
+  font-size: 0.8rem;
+}
+
+.sertifikat .card img {
+  /* width: 49%; */
+  padding: 2px;
+  transform: scale(1);
+  transition: 1s;
+}
+
+.sertifikat .card img:hover {
+  transform-style: preserve-3d;
+  transform: scale(1.1);
+  transition: all ease 1s;
+}
+
+/* End Sertifikat */
