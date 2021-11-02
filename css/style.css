@@ -391,7 +391,7 @@ hr {
 }
 
 .content-skill .card {
-  height: 350px;
+  height: 360px;
   background-color: var(--secondaryColor);
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   transform: scale(1);
